@@ -1,0 +1,19 @@
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcFR0SUowdW1oZ1haUjlCNkRqaEdOb1FYRHdBRHV2QkRsRlM4YmVxcUdTV3NIdFBRRU53eXk2TzNneGhJT19sSlA4WEUzb3hkTnJ4dENIOTVPLTl1YjRWRlF4WllmMEM1OVpMUXQtU1ZkWEpOMk9PQT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJmYjc3ZDJlZGE4MzhlZDEzNmNlYzYxMTk5NzUzMWYyNmJiZWFjMGQzZTU4MjcwZTAzYjhjMmYxNyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFHOTYxMjQiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc2Njc5NTQwMCwiaWF0IjoxNzY2NzczMjU3LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NjY3NzMyNTcsInN1YiI6ImFjY2Vzc190b2tlbiJ9.GtR300kp7gnflq-6_P4fPIabtjw4shBF9crL77kcBLI",
+  "user": {
+    "fy_id": "FAG96124",
+    "name": "YASH RAJESH DHIVER",
+    "image": null,
+    "display_name": null,
+    "pin_change_date": "24-12-2025 21:24:43",
+    "email_id": "yxxxxxxxxxx0@gmail.com",
+    "pwd_change_date": null,
+    "PAN": "IGxxxxxx2G",
+    "mobile_number": "98xxxxxx01",
+    "totp": false,
+    "pwd_to_expire": 90,
+    "ddpi_enabled": false,
+    "mtf_enabled": false,
+    "login_time": "2025-12-26T23:50:57.794018"
+  }
+}

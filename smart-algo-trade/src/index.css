@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: #27272a;
+  /* zinc-800 */
+  --color-input: #27272a;
+  --color-ring: #8b5cf6;
+  /* violet-500 */
+  --color-background: #000000;
+  /* pure black */
+  --color-foreground: #fafafa;
+  /* zinc-50 */
+
+  --color-primary: #fafafa;
+  --color-primary-foreground: #18181b;
+  /* zinc-900 */
+
+  --color-secondary: #27272a;
+  --color-secondary-foreground: #fafafa;
+
+  --color-destructive: #ef4444;
+  /* red-500 */
+  --color-destructive-foreground: #fafafa;
+
+  --color-muted: #27272a;
+  --color-muted-foreground: #a1a1aa;
+  /* zinc-400 */
+
+  --color-accent: #27272a;
+  --color-accent-foreground: #fafafa;
+
+  --color-popover: #09090b;
+  --color-popover-foreground: #fafafa;
+
+  --color-card: #09090b;
+  --color-card-foreground: #fafafa;
+
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0
+    }
+
+    to {
+      height: var(--radix-accordion-content-height)
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height)
+    }
+
+    to {
+      height: 0
+    }
+  }
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: var(--color-foreground);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
